@@ -1,4 +1,6 @@
-year = int(input("Which year do you want to check? "))
+# year = int(input("Which year do you want to check? "))
+
+year = 2020
 
 if year % 4 == 0:
     if year % 100 == 0:
