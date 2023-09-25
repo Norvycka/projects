@@ -1,6 +1,8 @@
 print("Welcome to the rollercoaster!")
-height = int(input("Whats your height? "))
-age = int(input("Whats your age? "))
+# height = int(input("Whats your height? "))
+# age = int(input("Whats your age? "))
+int height = 190
+int age = 46
 bill = 0
 
 if height >= 120:
@@ -18,7 +20,8 @@ if height >= 120:
     bill = 12
     print("Adult tickets are $12.")
   
-  wants_photo = input("Do you want a photo? ")
+  #wants_photo = input("Do you want a photo? ")
+  wants photo = "y"
   if wants_photo == "y":
     bill += 3
   
