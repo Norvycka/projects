@@ -9,6 +9,7 @@ if sun == "1":
     print("Good thinking, the plants needed some sun for photosynthesis and obviously you, because you are breathing their homemade air. \n")
     
     water = input("You start seeing that the plants are becoming dry, the leaves lowered and got slightly darker color\nWhat do you do? 1 - Pray for them. 2 - Water them. \n")
+    
     if water == "1":
         print("The plants died, you have left a day of oxygen, have fun. \n")
     else:
@@ -19,7 +20,6 @@ if sun == "1":
             print("You overfertillized the plants, they died, you have left a day of oxygen, spend it wisely. \n")
         else:
             print("Congratulations, you managed to keep the plants alive for 3 days, now keep it up as long as you want to live yourself! \n")
-
 
 else:
     print("The plants died, you have left a day of oxygen, have fun.")
