@@ -19,7 +19,7 @@ e = both_names_low("e")
 true = t+r+u+e
 love = l+o+v+e
 true_love = str(true) + str(love)
-
+# can be written: true_love = int(str(true) + str(love)) and then we do not need line below.
 percentage = int(true_love)
 if (percentage < 10) or (percentage > 90):
     print(f"Your score is {true_love}, you go together like coke and mentos.")
