@@ -21,9 +21,9 @@ love = l+o+v+e
 true_love = str(true) + str(love)
 
 percentage = int(true_love)
-if percentage < 10 or percentage > 90:
+if (percentage < 10) or (percentage > 90):
     print(f"Your score is {true_love}, you go together like coke and mentos.")
-elif percentage >= 40 and percentage <= 50:
+elif (percentage >= 40) and (percentage <= 50):
     print(f"Your score is {true_love}, you are alright together.")
 else:
     print(f"Your score is {true_love}.")
