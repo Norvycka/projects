@@ -2,7 +2,7 @@ import random
 # Split string method
 names_string = input("Give me everybody's names, separated by a comma.\n")
 names = names_string.split(", ")
-#can be added more ppl
+
 random_num = random.randint(0,2)
 
 if random_num == 0:
