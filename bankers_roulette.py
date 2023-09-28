@@ -1,13 +1,11 @@
 import random
+#creating who will buy the meal for everyone program
 # Split string method
 names_string = input("Give me everybody's names, separated by a comma.\n")
 names = names_string.split(", ")
-#add more ppl
-random_num = random.randint(0,2)
 
-if random_num == 0:
-    print(f"{names[0]} is going to buy the meal today!)")
-elif random_num == 1:
-    print(f"{names[1]} is going to buy the meal today!)")
-else:
-    print(f"{names[2]} is going to buy the meal today!)")
+num_names = len(names)
+
+random_choice = random.randint(0, num_names - 1)
+person_who_will_pay = names[random_choice]
+print(person_who_will_pay + " is going to buy the meal today.")
