@@ -5,17 +5,17 @@ print(student_scores)
 
 #get the number of student scores there is:
 
-score_num = 0
-for score in student_scores:
-    score_num += 1
+# score_num = 0
+# for score in student_scores:
+#     score_num += 1
 #print(f"number of student scores= {score_num}")
 
 #find the highest score:
 
 high = 0
 
-for n in range(0, score_num):
-    if high < student_scores[n]:
-        high = student_scores[n]
+for score in student_scores:
+    if score > high:
+        high = score
         
 print(f"The highest score in the class is: {high}")
