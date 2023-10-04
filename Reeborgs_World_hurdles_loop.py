@@ -5,7 +5,7 @@ def turn_right():
     turn_left()
 
 
-for m in range(1, 6+1):
+for m in range(6):
     move()
     turn_left()
     move()
