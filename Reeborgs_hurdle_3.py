@@ -1,3 +1,5 @@
+#at_goal() was predefined
+
 def turn_right():
     turn_left()
     turn_left()
