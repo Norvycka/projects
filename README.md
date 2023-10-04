@@ -1,4 +1,5 @@
 This is my repository where I put all of my projects while learning.
+
                                                                 
                         /\
   ___                  /  \                  ___
@@ -15,7 +16,5 @@ This is my repository where I put all of my projects while learning.
             /___I___I___I___I___I___I\
            /__I___I___I___I___I___I___\
           /_I___I___I___I___I___I___I__\
-
-
 
 THis will be more concise later, bigger projects will have their own repository. As of now I am polishing the logic and the basics.
