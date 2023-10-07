@@ -18,5 +18,3 @@ while not at_goal():
         move()
     else:
         jump()
-
-JIGGLE JIGGLE
