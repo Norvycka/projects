@@ -18,3 +18,4 @@ while not at_goal():
         move()
     else:
         jump()
+last time
