@@ -4,6 +4,7 @@ word_list = ["ardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
 
+#random_choice = random.randint(0, len(word_list))
 #chosen_word = word_list[random_choice]
 
 guess = input("Guess the letter: ").lower()
