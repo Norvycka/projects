@@ -13,7 +13,7 @@ travel_log = [
     "cities": ["Berlin", "Hamburg", "Stuttgart"]
   },
 ]
-# Your code here 👇
+
 def add_new_country(name, times_visited, cities_visited):
     new_country = {}
     new_country["country"] = name
