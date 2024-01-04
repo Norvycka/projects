@@ -11,7 +11,7 @@ def deal_card():
 
 def calculate_score(cards):
     """The parameter ^cards is just a placeholder, not the list cards from the function deal_card"""
-    if sum(cards) == 21:
+    if sum(cards) == 21: #len(2), what if the hand is more than 2?
         return 0
     
     if 11 in cards and sum(cards) > 21:
@@ -69,7 +69,8 @@ def play_game():
         while computer_score != 0 and computer_score < 17:
             computer_cards.append(deal_card())
             computer_score = calculate_score(computer_cards)
-          
+            
+    """Added this v so the user wouldnt see the 0 from calculate_score function"""      
     if user_score == 0:
         user_score = 21
     if computer_score == 0:
