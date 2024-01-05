@@ -31,6 +31,10 @@ if secondsUntilAlarm < 0:
 print("alarm has been set!")
 print("The alarm will ring at %s" % datetime.timedelta(seconds=secondsUntilAlarm))
 
-time.sleep(secondsUntilAlarm)
+for i in range(0, secondsUntilAlarm):
+    time.sleep(1)
+    secondsUntilAlarm -= 1
+    print(datetime.timedelta(seconds=secondsUntilAlarm))
+    
 print("Ring Ring mofo, wake up")
 os.system('spd-say "wake up bitch!"')
