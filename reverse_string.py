@@ -12,5 +12,6 @@ for letter in range(length):
     jack = reversed_string.append(cut[length-m])
 print(reversed_string)
 
-jacker = string.reverse
-print(jacker)
+#the easy way
+#txt = "Hello World"[::-1]
+#print(txt) 
