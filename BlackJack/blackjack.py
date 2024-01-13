@@ -1,5 +1,5 @@
 import random
-from fart import logo
+from art import logo
 
 
 def deal_card():
