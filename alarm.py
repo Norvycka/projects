@@ -36,5 +36,5 @@ for i in range(0, secondsUntilAlarm):
     secondsUntilAlarm -= 1
     print(datetime.timedelta(seconds=secondsUntilAlarm))
     
-print("Ring Ring mofo, wake up")
-os.system('spd-say "wake up bitch!"')
+print("Ring Ring mf, wake up")
+os.system('spd-say "Time to wake up, brother from another mother."')
